@@ -1,0 +1,5 @@
+# Ignore macOS DS_Store files
+.DS_Store
+
+# Ignore Windows .ini files
+*.ini
