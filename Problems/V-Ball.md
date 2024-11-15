@@ -50,7 +50,7 @@ Output a single number, representing the maximum value of \( C \). The answer sh
 
 #### Example Input #1
 
-```text
+```in
 3
 19 17 16
 25 24 23
@@ -62,7 +62,7 @@ Output a single number, representing the maximum value of \( C \). The answer sh
 
 #### Example Output #1
 
-```text
+```out
 5.357143
 ```
 

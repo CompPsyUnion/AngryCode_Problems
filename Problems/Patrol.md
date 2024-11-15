@@ -29,16 +29,20 @@ As the kingdom’s most talented strategist, you are tasked with determining whi
 **Note that in this problem, $k=1$.**
 
 ## Input format
+
 The first line of input will include $2$ intergers $n$ and $k$, the number of villages and number of road(s) to be built.
 
 Then follows $n$ lines. Each line contains $2$ intergers $x$ and $y$, meaning that there exists a path between village $x$ and village $y$.
 
 ## Output format
+
 One interger representing the minimum length of patrol route.
 
 ## Sample input and output
+
 ### Input #1
-```
+
+```in
 8 1 
 1 2 
 3 1 
@@ -48,10 +52,13 @@ One interger representing the minimum length of patrol route.
 8 5 
 5 6 
 ```
+
 ### Output #1
-```
+
+```out
 11
 ```
 
 ## Data size
+
 For 100\% of the test data: $1 \le n \le 10^{5}$ and $k=1$.

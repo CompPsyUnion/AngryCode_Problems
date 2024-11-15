@@ -43,20 +43,20 @@ each one of the ten lowercase letters from **“a”** to **“j”**. The first
 
 ### Output
 
-The only line of output should contain exactly one integer: the least number of key presses Bertram needs to delete all the **“e”s**.
+The only line of output should contain exactly one integer \( T \): the least number of key presses Bertram needs to delete all the **“e”s**.
 
 ### Example
 
 #### Example Input #1
 
-```text
+```in
 35
 chefeddiefedjeffeachbigagedegghehad
 ```
 
 #### Example Output #1
 
-```text
+```out
 36
 ```
 
@@ -75,3 +75,13 @@ You can test this by starting the Vim editor yourself (type **“vim 1.txt”** 
 - For 50% of the test cases, \( N \le 500 \).
 - For 60% of the test cases, \( N \le 5000 \).
 - For 100% of the test cases, \( N \le 70000 \).
+
+### For ya
+
+In actual cases where \( T \ge 14 \), this is more likely to be efficient (not counting the \<Shift\> key):
+
+```text
+:%s/\%d101//g<Enter>
+```
+
+Ah, but alas, poor Bertram was unaware of this clever workaround, that's a pity. But let’s remain optimistic — perhaps soon he’ll stumble upon these knowledge and become a true Vim master!

@@ -37,7 +37,7 @@ Your answer is considered correct if all the outputs' absolute error does not ex
 
 #### Example Input #1
 
-```text
+```in
 6
 8.0 9.0
 4.0 7.5
@@ -49,7 +49,7 @@ Your answer is considered correct if all the outputs' absolute error does not ex
 
 #### Example Output #1
 
-```text
+```out
 5.0000000000
 5.0000000000 5.0000000000
 ```
