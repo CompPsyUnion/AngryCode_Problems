@@ -1,4 +1,5 @@
-# ANGRYCODE  
+# ANGRYCODE
+
 Dictionaries are not allowed with one exception. Those whose first language is not English may use a standard translation dictionary to translate between that language and English provided that neither language is the subject of this examination. Subject specific translation
 dictionaries are not permitted.
 Paper materials are **PERMITTED** in this competition.

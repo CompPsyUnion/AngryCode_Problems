@@ -1,6 +1,4 @@
-# Q3
-
-## FlingLikFullOfVim
+# FlingLikFullOfVim
 
 Difficulty: ******
 
@@ -8,7 +6,7 @@ Time limit: 2.00s
 
 Memory limit: 512MB
 
-### Background
+## Background
 
 Ernest Vincent Wright was an American author, known for writing a novel (Gadsby) without using the letter **“e”**. Bertram Liu is a big fan of Ernest and tries to imitate him in writing a novel, but is looking for a real challenge. He uses only the first ten characters of the alphabet (namely abcdefghij).
 
@@ -32,35 +30,35 @@ where the cursor is denoted by a frame like \(\boxed{i}\), then
 
 > Note that the “e” key is broken, so the command “fe” cannot be used.
 
-### Task
+## Task
 
 Write a program that calculates the least number of key presses that Bertram needs to use to delete all the **“e”s** in the document, but no other letters. Initially, the cursor is at the first character of the document.
 
-### Input
+## Input
 
 The first line contains the integer \( N\), the length of the document. The next line contains N characters,
 each one of the ten lowercase letters from **“a”** to **“j”**. The first and the last letter of the input are both different from **“e”**.
 
-### Output
+## Output
 
 The only line of output should contain exactly one integer \( T \): the least number of key presses Bertram needs to delete all the **“e”s**.
 
-### Example
+## Example
 
-#### Example Input #1
+### Example Input #1
 
 ```in
 35
 chefeddiefedjeffeachbigagedegghehad
 ```
 
-#### Example Output #1
+### Example Output #1
 
 ```out
 36
 ```
 
-### Tips
+## Tips
 
 An optimal solution for the example test case is:
 
@@ -70,13 +68,13 @@ fdhxhhxffhxfahxhhhxhhhxfdhxfghxfahhx
 
 You can test this by starting the Vim editor yourself (type **“vim 1.txt”** at the command prompt to open **1.txt**, type **“:q\<ENTER\>”** to quit).
 
-### Constraints
+## Constraints
 
 - For 50% of the test cases, \( N \le 500 \).
 - For 60% of the test cases, \( N \le 5000 \).
 - For 100% of the test cases, \( N \le 70000 \).
 
-### For ya
+## For ya
 
 In actual cases where \( T \ge 14 \), this is more likely to be efficient (not counting the \<Shift\> key):
 

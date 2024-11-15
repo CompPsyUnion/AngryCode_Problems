@@ -1,6 +1,4 @@
-# Q2
-
-## V-Ball
+# V-Ball
 
 Difficulty: *****
 
@@ -8,7 +6,7 @@ Time limit: 1.50s
 
 Memory limit: 250MB
 
-### Background
+## Background
 
 As you know, at the beginning of this semester, UNNC organised a freshman V-Ball. And Cathy, an experienced senior, was tasked with arranging dance partners for the freshmen who attended as singles.
 
@@ -30,11 +28,11 @@ Cathy wants a program inputting \( a_{i,j} \) and \( b_{i,j} \) and output the b
 
 There are, of course, many other issues to consider, but you don't need to worry about those stuffs. Cathy will handle the additional details and further adjust the result herself. For now, she only wants to determine the upper limit of her scheme based on the current situation.
 
-### Task
+## Task
 
 Your programme need to find and output the biggest \( C \) given the provided data.
 
-### Input
+## Input
 
 The first line contains an integer \( N \).
 
@@ -42,13 +40,13 @@ The next \( N \) lines contain \( N \) integers each, where the integer at the \
 
 The following \( N \) lines contain \( N \) integers each, where the integer at the \( i_{th} \) row and \( j_{th} \) column is represented as \( b_{i,j} \).
 
-### Output
+## Output
 
 Output a single number, representing the maximum value of \( C \). The answer should be rounded to **6 decimal places**, and the contestant’s output must exactly match the standard output.
 
-### Example #1
+## Example #1
 
-#### Example Input #1
+### Example Input #1
 
 ```in
 3
@@ -60,13 +58,13 @@ Output a single number, representing the maximum value of \( C \). The answer sh
 7 8 9
 ```
 
-#### Example Output #1
+### Example Output #1
 
 ```out
 5.357143
 ```
 
-### Tips
+## Tips
 
 - For 10% of the test cases, \( 1 \le N \le 5 \).
 - For 40% of the test cases, \( 1 \le N \le 18 \).
