@@ -32,7 +32,7 @@ There are, of course, many other issues to consider, but you don't need to worry
 
 Your programme need to find and output the biggest \( C \) given the provided data.
 
-## Input
+## Input format
 
 The first line contains an integer \( N \).
 
@@ -40,7 +40,7 @@ The next \( N \) lines contain \( N \) integers each, where the integer at the \
 
 The following \( N \) lines contain \( N \) integers each, where the integer at the \( i_{th} \) row and \( j_{th} \) column is represented as \( b_{i,j} \).
 
-## Output
+## Output format
 
 Output a single number, representing the maximum value of \( C \). The answer should be rounded to **6 decimal places**, and the contestant’s output must exactly match the standard output.
 

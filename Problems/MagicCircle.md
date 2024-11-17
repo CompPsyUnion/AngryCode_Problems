@@ -20,7 +20,7 @@ Your task is to help the Grand Mage find this minimal magic circle and determine
 
 The first line contains an integer \( N \), representing the number of crystal stones.
 
-The next \( N \) lines each contain two real numbers \( x_i \) and \( y_i \), representing the coordinates of the \( i \)-th crystal stone, with up to two decimal places.
+The next \( N \) lines each contain two real numbers \( x_i \) and \( y_i \), representing the coordinates of the \( i_{th} \) crystal stone, with up to two decimal places.
 
 ## Output
 

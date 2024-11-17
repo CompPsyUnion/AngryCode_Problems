@@ -34,12 +34,12 @@ where the cursor is denoted by a frame like \(\boxed{i}\), then
 
 Write a program that calculates the least number of key presses that Bertram needs to use to delete all the **“e”s** in the document, but no other letters. Initially, the cursor is at the first character of the document.
 
-## Input
+## Input format
 
 The first line contains the integer \( N\), the length of the document. The next line contains N characters,
 each one of the ten lowercase letters from **“a”** to **“j”**. The first and the last letter of the input are both different from **“e”**.
 
-## Output
+## Output format
 
 The only line of output should contain exactly one integer \( T \): the least number of key presses Bertram needs to delete all the **“e”s**.
 
