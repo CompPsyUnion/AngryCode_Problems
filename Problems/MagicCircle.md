@@ -1,6 +1,6 @@
 # Magic Circle
 
-Difficulty: *****
+Difficulty: \*\**\*\*
 
 Time limit: 1.00s
 
