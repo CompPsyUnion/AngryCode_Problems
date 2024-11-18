@@ -3,3 +3,5 @@
 
 # Ignore Windows .ini files
 *.ini
+
+.vscode

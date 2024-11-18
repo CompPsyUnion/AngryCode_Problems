@@ -7,14 +7,14 @@
 
 #include <algorithm>
 #include <iostream>
+#include <random>
 using namespace std;
 #define il inline
-#define re register
 #define D double
 
 il int read() {
-    re int x = 0, f = 1;
-    re char c = getchar();
+    int x = 0, f = 1;
+    char c = getchar();
     while (c < '0' || c > '9') {
         if (c == '-')
             f = -1;
@@ -27,7 +27,7 @@ il int read() {
     return x * f;
 }
 
-#define rep(i, s, t) for (re int i = s; i <= t; ++i)
+#define rep(i, s, t) for (int i = s; i <= t; ++i)
 #define eps 1e-12
 #define maxn 100005
 #define ff(x) (x) * (x)
@@ -71,7 +71,9 @@ il void work() {
 int main() {
     n = read();
     rep(i, 1, n) scanf("%lf%lf", &e[i].x, &e[i].y);
-    random_shuffle(e + 1, e + n + 1);
+    std::random_device rd;
+    std::mt19937 g(rd());
+    std::shuffle(e + 1, e + n + 1, g);
     work();
     printf("%.10lf\n%.10lf %.10lf", r, o.x, o.y);
 
