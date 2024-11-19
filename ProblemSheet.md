@@ -134,7 +134,7 @@ Then follows $n$ lines. Each line contains $2$ intergers $x$ and $y$, meaning th
 
 One interger representing the minimum length of patrol route.
 
-## Example
+### Example
 
 ###### Input #1
 
