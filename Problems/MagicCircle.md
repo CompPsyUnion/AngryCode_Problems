@@ -8,7 +8,7 @@ Memory limit: 128MB
 
 ## Background
 
-In a mystical land filled with magical energy, there exists a **Crystal Forest** containing $N$ crystal stones. The position of each crystal stone is given by its coordinates \((x_i, y_i)\). The Grand Mage wants to draw a minimal magic circle (circular barrier) to protect all the crystal stones. The magic circle must enclose all the crystal stones, and no stone can lie outside the circle.
+In a mystical land filled with magical energy, there exists a **Crystal Forest** containing $N$ crystal stones. The position of each crystal stone is given by its coordinates $(x_i, y_i)$. The Grand Mage wants to draw a minimal magic circle (circular barrier) to protect all the crystal stones. The magic circle must enclose all the crystal stones, and no stone can lie outside the circle.
 
 The Grand Mage aims to use the least energy, so the circle must be the smallest possible.
 

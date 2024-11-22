@@ -14,7 +14,7 @@ There were $N$ boys and $N$ girls attending the ball without finding a partner i
 
 As a responsible senior, Cathy collected the relationships between these freshmen, noting whether they knew each other beforehand, and how close they were, representing this **level of closeness** as $a_{i,j}$.
 
-She also needs to consider whether it is proper for two people to dance together, such as whether there will be a significant difference in their height and weight, and calculated this accordingly as $b_{i,j}$, indicating **the degree of discordance** when the \(i_{th}\) boy and \(j_{th}\) girl dance together.
+She also needs to consider whether it is proper for two people to dance together, such as whether there will be a significant difference in their height and weight, and calculated this accordingly as $b_{i,j}$, indicating **the degree of discordance** when the $i_{th}$ boy and $j_{th}$ girl dance together.
 
 To evaluating how "good" the overall result is, we have a real number $C$, and here's how we can calculate this:
 

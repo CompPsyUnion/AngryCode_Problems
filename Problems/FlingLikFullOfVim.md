@@ -22,11 +22,11 @@ $$
 jeff\boxed{i}ehadabigidea
 $$
 
-where the cursor is denoted by a frame like \(\boxed{i}\), then
+where the cursor is denoted by a frame like $\boxed{i}$, then
 
-- **“x”** would give \(jeff\boxed{e}hadabigidea\)
-- **“h”** would give \(jef\boxed{f}iehadabigidea`\)
-- **“fi”** would give \(jeffiehadab\boxed{i}gidea\)
+- **“x”** would give $jeff\boxed{e}hadabigidea$
+- **“h”** would give $jef\boxed{f}iehadabigidea`$
+- **“fi”** would give $jeffiehadab\boxed{i}gidea$
 
 > Note that the “e” key is broken, so the command “fe” cannot be used.
 
@@ -36,7 +36,7 @@ Write a program that calculates the least number of key presses that Yinan needs
 
 ## Input format
 
-The first line contains the integer $N\), the length of the document. The next line contains N characters,
+The first line contains the integer $N$, the length of the document. The next line contains N characters,
 each one of the ten lowercase letters from **“a”** to **“j”**. The first and the last letter of the input are both different from **“e”**.
 
 ## Output format
