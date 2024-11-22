@@ -14,7 +14,7 @@ Ironically, the “e” key on his computer breaks halfway through the novel, an
 
 - **“x”** deletes the character at the cursor. The cursor position (counted from the left) does not change. Yinan shall not use this command if the cursor is at the last character of the document.
 - **“h”** moves the cursor one step backward (to the left). Nothing happens if the cursor is at the beginning of the document.
-- **“f”** waits for the user to input another character \( C \), and then moves the cursor forward to the next occurrence of \( C \) (even if the character at the cursor happens to be \( C \)). Nothing happens if \( C \) does not occur anywhere to the right of the cursor position.
+- **“f”** waits for the user to input another character $C$, and then moves the cursor forward to the next occurrence of $C$ (even if the character at the cursor happens to be $C$). Nothing happens if $C$ does not occur anywhere to the right of the cursor position.
 
 For example, if the current text is
 
@@ -36,12 +36,12 @@ Write a program that calculates the least number of key presses that Yinan needs
 
 ## Input format
 
-The first line contains the integer \( N\), the length of the document. The next line contains N characters,
+The first line contains the integer $N\), the length of the document. The next line contains N characters,
 each one of the ten lowercase letters from **“a”** to **“j”**. The first and the last letter of the input are both different from **“e”**.
 
 ## Output format
 
-The only line of output should contain exactly one integer \( T \): the least number of key presses Yinan needs to delete all the **“e”s**.
+The only line of output should contain exactly one integer $T$: the least number of key presses Yinan needs to delete all the **“e”s**.
 
 ## Example
 
@@ -70,13 +70,13 @@ You can test this by starting the Vim editor yourself (type **“vim 1.txt”** 
 
 ## Constraints
 
-- For 50% of the test cases, \( N \le 500 \).
-- For 60% of the test cases, \( N \le 5000 \).
-- For 100% of the test cases, \( N \le 70000 \).
+- For 50% of the test cases, $N \le 500$.
+- For 60% of the test cases, $N \le 5000$.
+- For 100% of the test cases, $N \le 70000$.
 
 ## For ya
 
-In actual cases where \( T \ge 14 \), this is more likely to be efficient (not counting the \<Shift\> key):
+In actual cases where $T \ge 14$, this is more likely to be efficient (not counting the \<Shift\> key):
 
 ```text
 :%s/\%d101//g<Enter>

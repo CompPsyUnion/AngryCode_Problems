@@ -8,9 +8,9 @@ To solve this problem, they found a dictionary to help them understand what the 
 
 ## Input format
 
-The first line of input contains the message described in a certain language. This message will not contain more than \( 10^6 \) characters. There will be exactly one whitespace between adjacent words, and the end of the line will be marked with **\$**. Characters after **\$** will not be considered part of the message.
+The first line of input contains the message described in a certain language. This message will not contain more than $10^6$ characters. There will be exactly one whitespace between adjacent words, and the end of the line will be marked with **\$**. Characters after **\$** will not be considered part of the message.
 
-The following line contains the sentence described in another language, which we need to find in the first line. This sentence will also not be longer than \( 10^6 \) characters and will follow the same format as described above.
+The following line contains the sentence described in another language, which we need to find in the first line. This sentence will also not be longer than $10^6$ characters and will follow the same format as described above.
 
 Except for the last character \$, all other characters are English letters and spaces.
 
