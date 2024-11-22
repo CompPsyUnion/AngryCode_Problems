@@ -25,7 +25,7 @@ $$
 where the cursor is denoted by a frame like $\boxed{i}$, then
 
 - **“x”** would give $jeff\boxed{e}hadabigidea$
-- **“h”** would give $jef\boxed{f}iehadabigidea`$
+- **“h”** would give $jef\boxed{f}iehadabigidea$
 - **“fi”** would give $jeffiehadab\boxed{i}gidea$
 
 > Note that the “e” key is broken, so the command “fe” cannot be used.
